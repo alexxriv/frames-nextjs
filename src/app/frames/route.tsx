@@ -18,7 +18,7 @@ const handleRequest = frames(async (req) => {
 
   return {
     image: (
-      <div style={{ width: "400px", height: "400px", display: "flex", justifyContent: "center", alignItems: "center" }}>
+      <div style={{ width: "300px", height: "300px", display: "flex", justifyContent: "center", alignItems: "center" }}>
         <img src={qrCodeDataUrl} alt={`QR Code for transaction: ${transaction}`} style={{ width: "100%", height: "100%" }} /> {/* Adjust image size */}
       </div>
     ),
